@@ -1,0 +1,169 @@
+/* 같은 폴더 안에 있으므로 파일명만 쓰며, import태그는 html에서 link태그와 같은 역할을 한다.*/
+@import url('all.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700;900&family=Noto+Serif+KR:wght@300;500;700;900&display=swap');
+
+body{
+    /* 본문서체를 지정 */
+    font-family: 'Noto Serif KR', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #00263d;
+    line-height: 20px;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+}
+div.main{
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+}
+div.main .content{}
+div.main .content .header{}
+div.main .content .header h3{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    color: #00263d;
+}
+div.main .content .header h5{
+    text-transform: uppercase;
+    color: #00263d;
+}
+div.main .content .header p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #00263d;
+}
+div.main .content .header button{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    color: #00263d;
+    background-color: #ff9933;
+    border: 1px solid #ff9933;
+    width: 120px;
+    margin-top: 10px;
+}
+
+div.content{
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+div.content .header{
+    width: 90%;
+    max-width: 380px;
+    margin: 0 auto;
+}
+div.content .header h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    color: #00263d;
+}
+div.content .header h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00263d;
+}
+div.content .header button{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #00263d;
+    border: 1px solid #00263d;
+    width: 160px;
+    margin-top: 10px;
+}
+div.content .header p{}
+div.content .section{
+    width: 90%;
+    max-width: 380px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+div.content .section h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    color: #00263d;
+}
+div.content .section h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00263d;
+}
+div.content .section h5{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #00263d;
+}
+div.content .section h6{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #00263d;
+}
+div.content .section p{
+    overflow: hidden;
+    color: #00263d;
+}
+div.content .section nav{
+    font-size: 14px;
+    line-height: 20px;
+    color: #00263d;
+}
+div.content .section button{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #00263d;
+    border: 1px solid #00263d;
+    width: 160px;
+    margin-top: 10px;
+}
+div.content .footer{
+    width: 90%;
+    max-width: 380px;
+    margin: 0 auto;
+}
+div.content .footer h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    color: #00263d;
+}
+div.content .footer button{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #00263d;
+    border: 1px solid #00263d;
+    width: 160px;
+    margin-top: 10px;
+}
+div.content .footer p{}
+
+/* .mt10{margin-top: 10px !important;}
+.mt20{margin-top: 20px !important;}
+.mt30{margin-top: 30px !important;}
+.mt40{margin-top: 40px !important;}
+.mt50{margin-top: 50px !important;}
+.mt60{margin-top: 60px !important;}
+.mt70{margin-top: 70px !important;}
+.mt80{margin-top: 80px !important;} */

@@ -1,0 +1,63 @@
+div.hdrWrap{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+}
+div.hdrWrap>.header{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+div.hdrWrap>.header::after{
+    display: block; content: ''; clear: both;
+}
+div.hdrWrap>.header>.image{
+    width: 24px; height: 24px;
+    background-image: url(../img/logoPoint/logoOnlyImg.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+div.hdrWrap>.header>h1{
+    font-size: 18px;
+    line-height: 20px;
+    color: #00263d;
+    text-transform:uppercase;
+    float: left;
+    margin-left: 10px;
+}
+div.hdrWrap>.header>.nav{
+    overflow: hidden;
+    width: 370px;
+    position: absolute;
+    margin: auto;
+    left: 0; right: 0;
+}
+div.hdrWrap>.header>.nav>li{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #00263d;
+    text-transform:uppercase;
+    float: left;
+    margin-left: 40px;
+}
+div.hdrWrap>.header>.navIcon{
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+div.hdrWrap>.header>.navIcon>li{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00263d;
+    float: left;
+    margin-left: 20px;
+}

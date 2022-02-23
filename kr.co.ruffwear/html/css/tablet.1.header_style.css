@@ -1,0 +1,49 @@
+div.hdrWrap{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+}
+div.hdrWrap>.header{
+    /* outline: 2px solid red; */
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+div.hdrWrap>.header::after{
+    /* display: block; content: ''; clear: both; */
+}
+div.hdrWrap>.header>.image{
+    /* outline: 2px solid blue; */
+    width: 18px; height: 18px;
+    background-image: url(../img/logoPoint/logoOnlyImg.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-top: 12px;
+}
+div.hdrWrap>.header>h1{
+    /* outline: 2px solid green; */
+    font-size: 18px;
+    line-height: 40px;
+    color: #00263d;
+    text-transform:uppercase;
+    float: left;
+    margin-left: 10px;
+}
+div.hdrWrap>.header>ul{
+    /* outline: 2px solid orange; */
+    float: right;
+    overflow: hidden;
+}
+div.hdrWrap>.header>ul>li{
+    /* outline: 2px solid purple; */
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    color: #00263d;
+    float: left;
+    margin-left: 20px;
+}

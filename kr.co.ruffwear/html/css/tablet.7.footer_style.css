@@ -1,0 +1,138 @@
+div.ftrWrap{
+    background-color: #00263d;
+    position: relative;
+}
+div.ftrWrap>div{
+}
+div.ftrWrap>.image{}
+div.ftrWrap>.image>div{
+    width: calc((100% - 1080px) / 2);
+    height: 560px;
+    background-image: url(../img/logoPoint/ftrPoint.JPG);
+    background-position: center;
+    background-size: cover;
+}
+div.ftrWrap>.image>.ovgridLeft{}
+div.ftrWrap>.image>.ovgridRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+div.ftrWrap>.footer{
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    top: 80px;
+    left: 0; right: 0;
+}
+
+div.ftrWrap>.footer>.sitemap{
+    overflow: hidden;
+    width: calc(100% / 12 * 2 - 20px);
+    height: 400px;
+    float: left;
+    margin: 0 10px;
+}
+div.ftrWrap>.footer>.sitemap:first-child{
+    width: calc(100% / 12 * 4 - 20px);
+}
+div.ftrWrap>.footer>.sitemap>*{
+    color: #fff;
+}
+
+div.ftrWrap>.footer>.sitemap>h4{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+div.ftrWrap>.footer>.sitemap>p{
+    padding: 20px 0;
+}
+div.ftrWrap>.footer>.sitemap>.email{
+    overflow: hidden;
+}
+div.ftrWrap>.footer>.sitemap>.email>h6{
+    font-size: 16px;
+    line-height: 40px;
+    border: 1px solid #ff9933;
+    border-radius: 10px 0 0 10px;
+    width: 200px;
+    padding-left: 10px;
+    float: left;
+}
+
+div.ftrWrap>.footer>.sitemap>.email>i{
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    background-color: #ff9933;
+    border: 1px solid #ff9933;
+    border-radius: 0 10px 10px 0;
+    width: 40px;
+    float: left;
+    cursor: pointer;
+}
+
+div.ftrWrap>.footer>.sitemap>h5{
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 40px;
+}
+
+div.ftrWrap>.footer>.sitemap>ul{
+    overflow: hidden;
+}
+
+div.ftrWrap>.footer>.sitemap>ul>li{
+    font-size: 18px;
+    line-height: 20px;
+    color: #ff9933;
+    float: left;
+    padding-right: 20px;
+}
+
+div.ftrWrap>.footer>.sitemap>h1{
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+
+div.ftrWrap>.footer>dl{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+div.ftrWrap>.footer>dl>dt{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+div.ftrWrap>.footer>dl>dd{
+    line-height: 40px;
+}
+div.ftrWrap>.footer>dl>.color{
+    color: #ff9933;
+    border: 1px solid #ff9933;
+    border-radius: 50px;
+    width: 160px;
+    padding-left: 10px;
+}
+div.ftrWrap>.footer>dl>.txtBox{
+    line-height: 20px;
+}
+div.ftrWrap>.footer>dl>hr{
+    background-color: #fff;
+    width: 160px;
+    height: 2px;
+}
+div.ftrWrap>.footer>.mt>.color,
+div.ftrWrap>.footer>.mt>.txtBox,
+div.ftrWrap>.footer>.mt>hr{
+    margin-top: 10px;
+}
+div.ftrWrap>.footer>.mt>dd:nth-child(2){
+    margin-top: 0;
+}
